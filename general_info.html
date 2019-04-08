@@ -13,6 +13,9 @@
     <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
+    <div class="loader">
+        <div class="loader-ring"></div>
+    </div>
     <div class="general__info">
         <h1>General Instruction</h1>
         <hr>
@@ -29,5 +32,8 @@
             <li>Along with the regular events, participants can also take part in daily events.</li>
         </ul>
     </div>
+    <script>
+        window.onload=function(){document.querySelector(".loader").classList.add('fade');}
+    </script>
 </body>
 </html>

@@ -13,6 +13,9 @@
     <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
+    <div class="loader">
+        <div class="loader-ring"></div>
+    </div>
     <div class="general__info register__form">
         <h1>Team Registration Form</h1>
         <hr>
@@ -32,5 +35,8 @@
             <button class="cta__button">Register Now</button>
         </form>
     </div>
+    <script>
+        window.onload=function(){document.querySelector(".loader").classList.add('fade');}
+    </script>
 </body>
 </html>
